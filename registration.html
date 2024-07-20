@@ -5,7 +5,11 @@
     <style>
         fieldset {
             background-color: rgb(86, 86, 203);
-            margin: 0px;
+            width: 60vw;
+            height: 130vh;
+            padding: 3%;
+            margin-left: 230px;
+
         }
 
         .input-field {
@@ -15,30 +19,23 @@
             margin-left: 5px;
         }
 
+        .main {
+            margin-left: 38%;
 
-
+        }
 
         h1 {
             background-color: lightgreen;
             font-size: large;
             color: darkblue;
-        }
+            width: 950px;
+            margin-left: 230px;
 
+        }
 
 
         label {
             color: white;
-        }
-
-        .main {
-            height: 110vh;
-            width: 60vw;
-            padding: 3%;
-            margin-left: 17%;
-        }
-
-        .submit {
-            margin-left: 40%;
         }
     </style>
 
@@ -48,9 +45,9 @@
 <body>
     <form>
         <u>
-            <h1 style="text-align: center; width: 67%; margin-left: 240px;"> Student's Registration Form</h1>
+            <h1 style="text-align: center;"> Student's Registration Form</h1>
         </u>
-        <fieldset class="main">
+        <fieldset>
             <br>
             <!-- Personal details -->
             <label class="label-style"> First Name:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -173,8 +170,7 @@
                 <br><br>
             </table>
             <br>
-            <br>
-            <label class="label-style"> Course <br> Applied For </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="label-style"> Course Applied For:-s </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
             <label class="label-style">B-Tech</label>
             <input type="radio" name="Course Applied for">&nbsp;
             <label class="label-style">BBA</label>
@@ -186,8 +182,11 @@
             <br>
             <br>
             <br><br>
+            <br>
             <!-- submit -->
-            <button class="submit"> Submit</button> <button>Reset</button>
+            <button class="main">submit</button>
+            <button>reset</button>
+
     </form>
 </body>
 
